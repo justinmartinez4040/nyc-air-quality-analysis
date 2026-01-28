@@ -9,7 +9,7 @@ This project analyzes 15+ years of New York City air quality data to identify po
 
 ### 1. Long-Term Trends (2008-2023)
 
-![NYC Air Quality Trends](pollution_trends_2008_2023.png)
+![NYC Air Quality Trends](pollution_trends_2008_2023..png)
 
 - **Nitrogen Dioxide (NO2)**: Decreased **47.1%** (28.29 → 14.96 ppb)
   - Major improvement driven by cleaner vehicles and stricter emissions regulations
