@@ -27,7 +27,23 @@ This project analyzes 15+ years of New York City air quality data to identify po
 - **Ozone remained stable** (complex atmospheric chemistry unaffected by reduced emissions)
 - Pollution levels began returning toward pre-pandemic baselines in 2021 as NYC reopened
 
-### 3. Neighborhood Disparities
+### 3. Seasonal Patterns
+
+![Seasonal Air Quality Patterns](seasonal_patterns.png)
+
+**Nitrogen Dioxide (NO2):**
+- **41% higher in winter** (22.60 ppb) compared to summer (15.98 ppb)
+- Winter increase driven by building heating systems and reduced air circulation
+
+**Fine Particles (PM 2.5):**
+- **6.5% higher in summer** (9.43 mcg/m³) compared to winter (8.85 mcg/m³)
+- Summer increase likely from construction activity and dry conditions
+
+**Ozone (O3):**
+- Only measured during summer months (requires sunlight and heat to form)
+- No winter baseline for comparison
+
+### 4. Neighborhood Disparities
 
 **Cleanest Areas:**
 - Rockaways and coastal neighborhoods benefit from ocean breezes that disperse pollutants
