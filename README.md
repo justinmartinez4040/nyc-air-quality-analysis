@@ -42,8 +42,28 @@ This project analyzes 15+ years of New York City air quality data to identify po
 **Ozone (O3):**
 - Only measured during summer months (requires sunlight and heat to form)
 - No winter baseline for comparison
+### 4. Borough Comparison
 
-### 4. Neighborhood Disparities
+![Borough Air Quality Comparison](borough_comparison.png)
+
+**Key Findings:**
+
+**Manhattan:** Consistently worst air quality across most pollutants
+- NO2: 25.43 ppb (**80% higher** than Staten Island)
+- PM 2.5: 10.20 mcg/m³ (**27% higher** than Staten Island)
+- Driven by dense traffic, construction, and limited green space
+
+**Staten Island:** Cleanest air quality in NYC
+- Lowest NO2 (14.10 ppb) and PM 2.5 (8.05 mcg/m³)
+- Benefits from less density, more vegetation, and ocean breezes
+
+**Outer Boroughs (Queens, Bronx, Brooklyn):**
+- Mid-range pollution levels
+- Queens has highest ozone (32.46 ppb) due to suburban sun exposure
+
+**Urban Density Impact:** Clear correlation between population density and air pollution—Manhattan's compact development results in significantly worse air quality compared to less dense boroughs.
+
+### 5. Neighborhood Disparities
 
 **Cleanest Areas:**
 - Rockaways and coastal neighborhoods benefit from ocean breezes that disperse pollutants
