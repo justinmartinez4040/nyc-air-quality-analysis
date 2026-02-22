@@ -1,9 +1,9 @@
 # NYC Air Quality Analysis (2008-2023)
 
-🚧 **Work in Progress** - This project is actively being developed
-
 ## Project Overview
 This project analyzes 15+ years of New York City air quality data to identify pollution trends, examine the COVID-19 pandemic's impact on air quality, and compare pollution levels across different neighborhoods.
+
+---
 
 ## Key Findings
 
@@ -11,11 +11,11 @@ This project analyzes 15+ years of New York City air quality data to identify po
 
 ![NYC Air Quality Trends](pollution_trends_2008_2023..png)
 
-- **Nitrogen Dioxide (NO2)**: Decreased **47.1%** (28.29 → 14.96 ppb)
+- **Nitrogen Dioxide (NO2):** Decreased **47.1%** (28.29 → 14.96 ppb)
   - Major improvement driven by cleaner vehicles and stricter emissions regulations
-- **Fine Particles (PM 2.5)**: Decreased **35.4%** (12.27 → 7.92 mcg/m³)
+- **Fine Particles (PM 2.5):** Decreased **35.4%** (12.27 → 7.92 mcg/m³)
   - Significant air quality improvement from environmental policies
-- **Ozone (O3)**: Increased **39.1%** (24.76 → 34.44 ppb)
+- **Ozone (O3):** Increased **39.1%** (24.76 → 34.44 ppb)
   - Rising levels likely connected to climate change and warmer temperatures
 
 ### 2. COVID-19 Impact (2019-2021)
@@ -42,11 +42,10 @@ This project analyzes 15+ years of New York City air quality data to identify po
 **Ozone (O3):**
 - Only measured during summer months (requires sunlight and heat to form)
 - No winter baseline for comparison
+
 ### 4. Borough Comparison
 
 ![Borough Air Quality Comparison](borough_comparison.png)
-
-**Key Findings:**
 
 **Manhattan:** Consistently worst air quality across most pollutants
 - NO2: 25.43 ppb (**80% higher** than Staten Island)
@@ -61,7 +60,7 @@ This project analyzes 15+ years of New York City air quality data to identify po
 - Mid-range pollution levels
 - Queens has highest ozone (32.46 ppb) due to suburban sun exposure
 
-**Urban Density Impact:** Clear correlation between population density and air pollution—Manhattan's compact development results in significantly worse air quality compared to less dense boroughs.
+**Urban Density Impact:** Clear correlation between population density and air pollution — Manhattan's compact development results in significantly worse air quality compared to less dense boroughs.
 
 ### 5. Neighborhood Disparities
 
@@ -75,29 +74,42 @@ This project analyzes 15+ years of New York City air quality data to identify po
 
 **Key Insight:** Geographic location and proximity to traffic corridors are major determinants of air quality exposure.
 
+---
+
+## Power BI Dashboard
+
+An interactive Power BI dashboard complements the Python analysis, featuring:
+- Pollutant trends over time (2008–2023)
+- Borough-level pollution comparison
+- Seasonal patterns (Summer vs Winter)
+- COVID-19 impact visualization (2019 vs 2020)
+
+The dashboard PDF is included in this repository.
+
+---
+
 ## Technologies Used
 - **Python** (pandas, matplotlib) for data analysis and visualization
+- **Power BI** for interactive dashboard creation
 - **Google Colab** for development environment
-- **Data Source**: NYC Open Data - Air Quality Dataset (18,000+ records)
+- **Data Source:** NYC Open Data - Air Quality Dataset (18,000+ records)
+
+---
 
 ## Dataset Details
-- **Time Period**: 2008-2023 (15+ years)
-- **Records**: 14,805 measurements across three main pollutants
-- **Geographic Coverage**: All five NYC boroughs and 40+ neighborhoods
+- **Time Period:** 2008-2023 (15+ years)
+- **Records:** 14,805 measurements across three main pollutants
+- **Geographic Coverage:** All five NYC boroughs and 40+ neighborhoods
 
-## What's Next
-- [ ] Power BI dashboard for interactive visualizations
-- [ ] Seasonal pattern analysis (Summer vs Winter)
-- [ ] Time series forecasting for future trends
-- [ ] Expanded neighborhood-level deep dive
+---
 
 ## About This Project
 This is an independent portfolio project demonstrating data cleaning, exploratory data analysis, statistical analysis, and data visualization skills. The project showcases my ability to transform raw data into actionable environmental insights.
 
-**Created by Justin Martinez**  
-Data Analytics Student, Syracuse University  
+**Created by Justin Martinez**
+Data Analytics Student, Syracuse University
 [LinkedIn](https://www.linkedin.com/in/justin-martinez556/) | [GitHub](https://github.com/justinmartinez4040)
 
 ---
 
-*Last updated: January 2026*
+*Last updated: February 2026*
